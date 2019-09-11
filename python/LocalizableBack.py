@@ -70,14 +70,14 @@ def convertiOSAndAndroidFile(table,targetFloderPath,iOSAdditional,androidAdditio
             # iOS
             LocalizableStringsFileUtil.writeToFile(keys,values,targetFloderPath + "/ios/"+languageName+".lproj/",iOSAdditional)
 
-            # Android
-            if languageName == "zh-Hans":
-                languageName = "zh-rCN"
+            # # Android
+            # if languageName == "zh-Hans":
+            #     languageName = "zh-rCN"
 
-            path = targetFloderPath + "/android/values-"+languageName+"/"
-            if languageName == 'en':
-                path = targetFloderPath + "/android/values/"
-            StringsXmlFileUtil.writeToFile(keys,values,path,androidAdditional)
+            # path = targetFloderPath + "/android/values-"+languageName+"/"
+            # if languageName == 'en':
+            #     path = targetFloderPath + "/android/values/"
+            # StringsXmlFileUtil.writeToFile(keys,values,path,androidAdditional)
 
 def main():
     options = addParser()

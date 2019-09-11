@@ -19,12 +19,12 @@ class LocalizableStringsFileUtil:
 
         for x in range(len(keys)):
             if values[x] is None or values[x] == '':
-                Log.error("Key:" + keys[x] + "\'s value is None. Index:" + str(x + 1))
+                Log.error("Key:" + str(keys[x]) + "\'s value is None. Index:" + str(x + 1))
                 continue
 
-            key = keys[x].strip()
+            key = keys[x]
             value = values[x]
-            content = "\"" + key + "\" " + "= " + "\"" + value + "\";\n"
+            content =  value  + "                 = "  + str(int(key)) + ";\n"
             fo.write(content);
 
         if additional is not None:
