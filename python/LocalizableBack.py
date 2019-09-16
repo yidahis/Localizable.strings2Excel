@@ -60,15 +60,15 @@ def convertiOSAndAndroidFile(table,targetFloderPath,iOSAdditional,androidAdditio
     firstRow = table.row_values(0)
 
     keys = table.col_values(0)
-    del keys[0]
+   
 
-    for index in range(len(firstRow)):
-        if index > 0:
-            languageName = firstRow[index]
-            values = table.col_values(index)
-            del values[0]
+    languageName = "中文"
+    values = table.col_values(1)
+    descriptions = table.col_values(2)
+    moduleName = table.col_values(3)
+ 
             # iOS
-            LocalizableStringsFileUtil.writeToFile(keys,values,targetFloderPath + "/ios/"+languageName+".lproj/",iOSAdditional)
+    LocalizableStringsFileUtil.writeToFile(keys, values, descriptions, moduleName,targetFloderPath + "/ios/"+languageName+".lproj/",iOSAdditional)
 
             # # Android
             # if languageName == "zh-Hans":

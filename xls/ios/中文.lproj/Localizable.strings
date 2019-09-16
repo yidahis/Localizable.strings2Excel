@@ -1,0 +1,145 @@
+
+//首页
+GRZhugeEventHomeViewShow                              = 100101,  //首页展示
+GRZhugeEventHomeBannerClick                           = 100201,  //点击首页Banner
+GRZhugeEventHomeBannerShow                            = 100202,  //Banner查看
+GRZhugeEventHomeMsgClick                              = 100301,  //点击首页消息中心入口
+GRZhugeEventHomeRecomendShow                          = 100401,  //精品推荐展示
+GRZhugeEventHomeRecomendClick                         = 100402,  //点击精品推荐入口
+GRZhugeEventHomeRecomenContentShow                    = 100403,  //精品推荐查看
+GRZhugeEventHomeLoanUnLoginClick                      = 100501,  //首页-未登录-点击“立即借款”按钮
+GRZhugeEventHomeQuotaClick                            = 100502,  //首页-待授信-点击“立即激活”按钮
+GRZhugeEventHomeQuotaProgressClick                    = 100503,  //首页-额度激活中-点击“查看激活进度”按钮
+GRZhugeEventHomeRequotaClick                          = 100504,  //首页-额度激活失败(不冻结)-点击“重新获取额度”按钮
+GRZhugeEventHomeLoanClick                             = 100505,  //首页-待借款-点击“立即借款”按钮
+GRZhugeEventHomeLoanProgressClick                     = 100506,  //首页-放款中-点击“查看放款进度”按钮
+GRZhugeEventHomeRepaymentClick                        = 100507,  //首页-待还款-点击“立即还款”
+GRZhugeEventHomeRepaymentProgressClick                = 100508,  //首页-还款处理中-点击“查看还款进度”
+
+//登录/注册页
+GRZhugeEventCheckShow                                 = 500101,  //注册/登录页展示
+GRZhugeEventCheckNextClick                            = 500201,  //点击下一步按钮
+GRZhugeEventCheckChangePhoneClick                     = 500301,  //点击更换手机号入口
+GRZhugeEventCheckProblemClick                         = 500401,  //点击遇到问题按钮
+
+//注册页
+GRZhugeEventRegisterShow                              = 600101,  //注册页展示
+GRZhugeEventRegisterSubmitClick                       = 600102,  //点击注册按钮
+GRZhugeEventRegisterProtoclClick                      = 600201,  //点击协议
+GRZhugeEventRegisterSelectClick                       = 600202,  //点击勾选框
+GRZhugeEventRegisterSendCodeClick                     = 600301,  //点击发送验证码按钮
+GRZhugeEventRegisterProblemClick                      = 600401,  //点击遇到问题按钮
+GRZhugeEventRegisterProtocolAlert                     = 600501,  //协议未勾选弹窗展示
+
+//验证码登录页
+GRZhugeEventCodeLoginShow                             = 700101,  //验证码登录页展示
+GRZhugeEventCodeLoginSubmitClick                      = 700201,  //点击登录按钮
+GRZhugeEventCodeLoginSendCodeClick                    = 700301,  //点击发送验证码按钮
+GRZhugeEventCodeLoginPasswordClick                    = 700401,  //点击使用密码登录按钮
+GRZhugeEventCodeLoginProblemClick                     = 700501,  //点击遇到问题按钮
+
+//密码登录页
+GRZhugeEventPwdLoginShow                              = 800101,  //密码登录页展示
+GRZhugeEventPwdLoginSubmitClick                       = 800201,  //点击登录按钮
+GRZhugeEventPwdLoginCodeClick                         = 800301,  //点击使用验证码登录按钮
+GRZhugeEventPwdLoginForgetClick                       = 800401,  //点击忘记密码按钮
+GRZhugeEventPwdLoginProblemClick                      = 800501,  //点击遇到问题按钮
+
+//重置密码页
+GRZhugeEventPwdResetShow                              = 900101,  //重置密码页展示
+GRZhugeEventPwdResetSendCodeClick                     = 900201,  //点击发送验证码按钮
+GRZhugeEventPwdResetSubmitClick                       = 900301,  //点击提交按钮
+GRZhugeEventPwdResetProblemClick                      = 900401,  //点击遇到问题按钮
+
+//我要反馈页面
+GRZhugeEventFeedBackShow                              = 1000101,  //我要返回页面展示
+GRZhugeEventFeedBackSubmitClick                       = 1000201,  //点击提交按钮
+
+//修改手机号-本人信息录入
+GRZhugeEventChangePhoneFirstShow                      = 1100101,  //修改手机号-本人信息录入页面展示
+GRZhugeEventChangePhoneFirstNextClick                 = 1100201,  //点击下一步按钮
+
+//修改手机号页面
+GRZhugeEventChangePhoneSecondShow                     = 1200101,  //修改手机号页面展示
+GRZhugeEventChangePhoneSecondSendCodeClick            = 1200201,  //点击获取验证码按钮
+GRZhugeEventChangePhoneSecondNextClick                = 1200301,  //点击下一步按钮
+GRZhugeEventChangePhoneSecondSuccessAlert             = 1200401,  //更换成功弹窗展示
+GRZhugeEventChangePhoneSecondSuccessAlertSure         = 1200501,  //点击弹窗上我知道了按钮
+
+//修改密码
+GRZhugeEventPasswordChangeShow                        = 2900101,  //修改密码页面展示
+GRZhugeEventPasswordChangeSendCodeClick               = 2900201,  //点击获取验证码按钮
+GRZhugeEventPasswordChangeSubmitClick                 = 2900301,  //点击确定按钮
+
+//还款页面
+GRZhugeEventRepayShow                                 = 3300101,  //还款页面展示
+GRZhugeEventRepayAmountEditerShow                     = 3300201,  //编辑金额弹窗展示
+GRZhugeEventRepayDelayAlert                           = 3300301,  //逾期费用说明弹窗展示
+GRZhugeEventRepayRepayPalnClick                       = 3300401,  //点击还款计划
+GRZhugeEventRepaySubmitClick                          = 3300501,  //点击确认还款
+
+//还款计划
+GRZhugeEventRepayPlanShow                             = 3400101,  //还款计划页面展示
+GRZhugeEventRepayPlanExpandClick                      = 3400201,  //还款计划icon点击
+GRZhugeEventRepayPlanSubmitClick                      = 3400301,  //确定按钮点击
+
+//一键还款
+GRZhugeEventRepayOneKeyShow                           = 3500101,  //一键还款页面展示
+GRZhugeEventRepayOneKeyBankClick                      = 3500201,  //点击还款账号
+GRZhugeEventRepayOneKeyCodeClick                      = 3500301,  //点击发送验证码按钮
+GRZhugeEventRepayOneKeyProtocolClick                  = 3500401,  //点击协议
+GRZhugeEventRepayOneKeySubmitClick                    = 3500501,  //点击确认还款
+
+//额度激活成功弹窗
+GRZhugeEventHomeAlertAmountSuccess                    = 3600101,  //额度激活成功弹窗展示
+
+//额度激活失败-有冻结时间弹窗
+GRZhugeEventHomeAlertAmountFailedWithTime             = 3600102,  //额度激活失败-有冻结时间弹窗展示
+
+//额度激活失败-无冻结时间弹窗
+GRZhugeEventHomeAlertAmountFailedNoTime               = 3600103,  //额度激活失败-无冻结时间弹窗展示
+
+//额度激活失败-强冻结弹窗
+GRZhugeEventHomeAlertAmountFailed                     = 3600104,  //额度激活失败-强冻结弹窗展示
+
+//提额成功弹窗
+GRZhugeEventHomeAlertAmountIncreaseSuccess            = 3600201,  //提额成功弹窗展示
+
+//提额失败弹窗
+GRZhugeEventHomeAlertAmountIncreaseFailed             = 3600202,  //提额失败弹窗展示
+
+//认证信息失效弹窗
+GRZhugeEventHomeAlertProfileExpired                   = 3600301,  //认证信息失效弹窗展示
+
+//放款成功弹窗
+GRZhugeEventHomeAlertLoanSuccess                      = 3600401,  //放款成功弹窗展示
+
+//放款失败弹窗
+GRZhugeEventHomeAlertLoanFailed                       = 3600402,  //放款失败弹窗展示
+
+//还款成功：还款金额<本期应还
+GRZhugeEventHomeAlertRepaySuccessSection              = 3600501,  //还款成功：还款金额<本期应还展示
+
+//还款成功：全部还清
+GRZhugeEventHomeAlertRepaySuccessTotal                = 3600502,  //还款成功：全部还清展示
+
+//还款成功：还完一期未还清
+GRZhugeEventHomeAlertRepaySuccessSingal               = 3600503,  //还款成功：还完一期未还清展示
+
+//还款失败
+GRZhugeEventHomeAlertRepayFailed                      = 3600504,  //还款失败展示
+
+//引导页
+GRZhugeEventIntroductionShow                          = 3700101,  //引导页展示
+GRZhugeEventIntroductionSkip                          = 3700201,  //跳过按钮点击
+GRZhugeEventIntroductionSubmit                        = 3700301,  //打开APP按钮点击
+
+//新手引导蒙层
+GRZhugeEventHomeTeachFirst                            = 3800101,  //新手引导蒙层1展示
+GRZhugeEventHomeTeachSecond                           = 3800201,  //新手引导蒙层2展示
+
+//权益确认
+GRZhugeEventPrivacyViewShow                           = 3900101,  //权益确认页展示
+GRZhugeEventPrivacyProtocolClick                      = 3900201,  //点击协议
+GRZhugeEventPrivacyAgreeClick                         = 3900301,  //点击同意按钮
+GRZhugeEventPrivacyDisagreeClick                      = 3900302,  //点击不同意按钮
